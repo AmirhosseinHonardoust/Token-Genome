@@ -1,0 +1,29 @@
+{
+  "token": "unlimited_mint_token.sol",
+  "genes": {
+    "MINT_UNBOUNDED": true,
+    "OWNER_EOA_LIKE": true,
+    "MINT_CAPPED": false,
+    "BURN_ALLOWED": false,
+    "REBASING_SUPPLY": false,
+    "FEE_BASIC": false,
+    "FEE_DYNAMIC": false,
+    "FEE_HIGH_RISK_PATTERN": false,
+    "OWNER_RENOUNCE_LOGIC": false,
+    "BLACKLIST_PRESENT": false,
+    "WHITELIST_PRESENT": false,
+    "TRADING_TOGGLE": false,
+    "HONEYPOT_LIKE": false,
+    "MANUAL_PRICE_SETTER": false,
+    "PROXY_UPGRADEABLE": false,
+    "CENTRALIZATION_RISK_HIGH": false
+  },
+  "risk": {
+    "score": 6,
+    "level": "MEDIUM",
+    "contributions": {
+      "MINT_UNBOUNDED": 4,
+      "OWNER_EOA_LIKE": 2
+    }
+  }
+}

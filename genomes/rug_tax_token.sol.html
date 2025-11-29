@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Token Genome Report - rug_tax_token.sol</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    h1 { font-size: 24px; margin-bottom: 4px; }
+    h2 { font-size: 18px; margin-top: 24px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+    th, td { border: 1px solid #ddd; padding: 6px 8px; font-size: 13px; }
+    th { background-color: #f4f4f4; text-align: left; }
+    .level-NONE { color: #555; }
+    .level-LOW { color: #2e7d32; }
+    .level-MEDIUM { color: #ef6c00; }
+    .level-HIGH { color: #c62828; font-weight: bold; }
+    .level-CRITICAL { color: #b71c1c; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Token Genome Report</h1>
+  <p><strong>Token:</strong> rug_tax_token.sol</p>
+
+  <h2>Risk Summary</h2>
+  <p class="level-HIGH"><strong>Level:</strong> HIGH &nbsp;&nbsp; <strong>Score:</strong> 9</p>
+
+  <h2>Active Genes</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Gene</th>
+        <th>Category</th>
+        <th>Risk Weight</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>FEE_BASIC</td><td>fees</td><td>1</td><td>Basic fee/tax found</td></tr>
+      <tr><td>FEE_DYNAMIC</td><td>fees</td><td>2</td><td>Settable fee logic</td></tr>
+      <tr><td>FEE_HIGH_RISK_PATTERN</td><td>fees</td><td>4</td><td>Honeypot-like fee pattern</td></tr>
+      <tr><td>OWNER_EOA_LIKE</td><td>permissions</td><td>2</td><td>EOA-like owner control</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

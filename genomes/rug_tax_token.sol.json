@@ -1,0 +1,31 @@
+{
+  "token": "rug_tax_token.sol",
+  "genes": {
+    "FEE_BASIC": true,
+    "FEE_DYNAMIC": true,
+    "FEE_HIGH_RISK_PATTERN": true,
+    "OWNER_EOA_LIKE": true,
+    "MINT_UNBOUNDED": false,
+    "MINT_CAPPED": false,
+    "BURN_ALLOWED": false,
+    "REBASING_SUPPLY": false,
+    "OWNER_RENOUNCE_LOGIC": false,
+    "BLACKLIST_PRESENT": false,
+    "WHITELIST_PRESENT": false,
+    "TRADING_TOGGLE": false,
+    "HONEYPOT_LIKE": false,
+    "MANUAL_PRICE_SETTER": false,
+    "PROXY_UPGRADEABLE": false,
+    "CENTRALIZATION_RISK_HIGH": false
+  },
+  "risk": {
+    "score": 9,
+    "level": "HIGH",
+    "contributions": {
+      "FEE_BASIC": 1,
+      "FEE_DYNAMIC": 2,
+      "FEE_HIGH_RISK_PATTERN": 4,
+      "OWNER_EOA_LIKE": 2
+    }
+  }
+}

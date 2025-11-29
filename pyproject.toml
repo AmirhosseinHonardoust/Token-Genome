@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "token-genome"
+version = "0.1.0"
+description = "Token Genome Project, genetic classification of smart contract behavior."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "AmirhosseinHonardoust" }
+]
+dependencies = []
+
+[project.scripts]
+tgp-scan = "tgp.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]

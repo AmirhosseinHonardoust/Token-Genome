@@ -1,0 +1,26 @@
+{
+  "token": "simple_token.sol",
+  "genes": {
+    "MINT_UNBOUNDED": false,
+    "MINT_CAPPED": false,
+    "BURN_ALLOWED": false,
+    "REBASING_SUPPLY": false,
+    "FEE_BASIC": false,
+    "FEE_DYNAMIC": false,
+    "FEE_HIGH_RISK_PATTERN": false,
+    "OWNER_EOA_LIKE": false,
+    "OWNER_RENOUNCE_LOGIC": false,
+    "BLACKLIST_PRESENT": false,
+    "WHITELIST_PRESENT": false,
+    "TRADING_TOGGLE": false,
+    "HONEYPOT_LIKE": false,
+    "MANUAL_PRICE_SETTER": false,
+    "PROXY_UPGRADEABLE": false,
+    "CENTRALIZATION_RISK_HIGH": false
+  },
+  "risk": {
+    "score": 0,
+    "level": "NONE",
+    "contributions": {}
+  }
+}
